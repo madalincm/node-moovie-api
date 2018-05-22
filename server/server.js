@@ -19,7 +19,7 @@ var {User} = require("./models/users");
 const port = process.env.PORT;
 var app = express();
 
-app.use(require("./conrollers"));
+app.use(require("./controllers"));
 
 
 app.listen(port, () => {
